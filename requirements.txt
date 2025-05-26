@@ -1,0 +1,2 @@
+requests>=2.25.1
+cx-Freeze>=6.8
