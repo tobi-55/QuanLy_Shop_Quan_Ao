@@ -68,7 +68,7 @@ Sau khi build thành công, file thực thi sẽ nằm trong thư mục `build/`
 - Tìm kiếm real-time
 
 ### API Integration
-- Lấy dữ liệu mẫu từ JSONPlaceholder API
+- Lấy dữ liệu mẫu từ API
 - Xử lý bất đồng bộ với threading
 
 ## Hỗ trợ
