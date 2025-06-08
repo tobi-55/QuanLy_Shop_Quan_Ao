@@ -134,9 +134,9 @@ class ClothingShopManager:
         info_frame = tk.Frame(login_frame, bg='white')
         info_frame.pack(pady=(20, 0))
         
-        tk.Label(info_frame, text="Tài khoản mặc định:", font=('Arial', 10, 'bold'), bg='white').pack()
-        tk.Label(info_frame, text="Admin: admin/admin123", font=('Arial', 9), bg='white', fg='#7f8c8d').pack()
-        tk.Label(info_frame, text="User: user/user123", font=('Arial', 9), bg='white', fg='#7f8c8d').pack()
+        #tk.Label(info_frame, text="Tài khoản mặc định:", font=('Arial', 10, 'bold'), bg='white').pack()
+        #tk.Label(info_frame, text="Admin: admin/admin123", font=('Arial', 9), bg='white', fg='#7f8c8d').pack()
+        #tk.Label(info_frame, text="User: user/user123", font=('Arial', 9), bg='white', fg='#7f8c8d').pack()
         
         # Bind Enter key to login
         self.username_entry.bind('<Return>', lambda e: self.login())
@@ -355,8 +355,8 @@ class ClothingShopManager:
                      bg='#e74c3c', fg='white', font=('Arial', 10), width=15).pack(pady=5)
             tk.Button(btn_frame, text="Lấy dữ liệu API", command=self.fetch_api_data,
                      bg='#9b59b6', fg='white', font=('Arial', 10), width=15).pack(pady=5)
-            tk.Button(btn_frame, text="Đọc dữ liệu", command=self.load_custom_json_data,
-                     bg='#1abc9c', fg='white', font=('Arial', 10), width=15).pack(pady=5)
+            #tk.Button(btn_frame, text="Đọc dữ liệu", command=self.load_custom_json_data,
+                     #bg='#1abc9c', fg='white', font=('Arial', 10), width=15).pack(pady=5)
         
         tk.Button(btn_frame, text="Làm mới", command=self.load_products,
                  bg='#3498db', fg='white', font=('Arial', 10), width=15).pack(pady=5)
@@ -820,12 +820,12 @@ def create_readme_file():
 Ứng dụng quản lý shop quần áo được phát triển bằng Python và Tkinter, hỗ trợ các chức năng CRUD hoàn chỉnh.
 
 ## Tính năng
-- ✅ Đăng nhập/Đăng ký với phân quyền
-- ✅ Quản lý sản phẩm (CRUD)
-- ✅ Tìm kiếm sản phẩm
-- ✅ Lấy dữ liệu từ API
-- ✅ Lưu trữ dữ liệu bằng JSON
-- ✅ Giao diện thân thiện với người dùng
+-  Đăng nhập/Đăng ký với phân quyền
+-  Quản lý sản phẩm (CRUD)
+-  Tìm kiếm sản phẩm
+-  Lấy dữ liệu từ API
+-  Lưu trữ dữ liệu bằng JSON
+-  Giao diện thân thiện với người dùng
 
 ## Cài đặt
 

@@ -4,12 +4,12 @@
 Ứng dụng quản lý shop quần áo được phát triển bằng Python và Tkinter, hỗ trợ các chức năng CRUD hoàn chỉnh.
 
 ## Tính năng
-- ✅ Đăng nhập/Đăng ký với phân quyền
-- ✅ Quản lý sản phẩm (CRUD)
-- ✅ Tìm kiếm sản phẩm
-- ✅ Lấy dữ liệu từ API
-- ✅ Lưu trữ dữ liệu bằng JSON
-- ✅ Giao diện thân thiện với người dùng
+-  Đăng nhập/Đăng ký với phân quyền
+-  Quản lý sản phẩm (CRUD)
+-  Tìm kiếm sản phẩm
+-  Lấy dữ liệu từ API
+-  Lưu trữ dữ liệu bằng JSON
+-  Giao diện thân thiện với người dùng
 
 ## Cài đặt
 
